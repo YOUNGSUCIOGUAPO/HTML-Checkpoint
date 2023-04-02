@@ -4,13 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/portfolio.css">
+    <script src="https://kit.fontawesome.com/e04ed0b4fb.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
-<header> 
-    <h1>Portfolio</h1>
-    <Nav>
-        <ul>
+<header class="horizontal"> 
+    <div><img src="res/logo_transparent.png" alt="YSG Logo"></div>
+    <nav class="edge" >
+        <ul class="nav-item">
             <li><a href="#home">Home</a></li>
             <li><a href="#services">Services</a></li>
             <li><a href="#about">About</a></li>
@@ -19,27 +22,89 @@
             <li><a href="#blog">Blog</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
-    </Nav>
+    </nav>
 </header>
 <main>
-    <section id="home">
-        <h1>YSG tha Developer</h1>
-        <h2>This is main</h2>
-        <div id="social-links"></div>
-        <div id="intro"></div>
-        <div id="home-image"></div>
-        <h3>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum quisquam id neque cupiditate odio ipsam animi aperiam nulla, optio est inventore expedita magnam repellat molestias vitae iusto qui eius officiis.
-        Quam amet earum commodi, unde, nihil adipisci eveniet sed officia quisquam voluptas voluptatem ratione, recusandae ullam velit nulla pariatur impedit animi nemo. At nemo earum voluptatem odio ullam veniam recusandae!
-        Inventore earum nisi aliquid ut sequi deleniti quo, blanditiis praesentium eius repudiandae fugit esse, nemo adipisci aliquam nihil eveniet tenetur, assumenda nobis! Porro dignissimos aperiam atque? Quia dolorum blanditiis dolorem!
-        Expedita, nam hic! Quod nemo hic non soluta fuga accusantium ex, delectus, dolor quos eos nihil et nostrum tenetur. Libero facilis excepturi quod hic itaque nemo iusto suscipit optio est.</h3>
+    <section id="home" class="align">
+        
+        <div class="aside">
+            <div id="social-links">
+               <i class="fa-brands fa-facebook-f" style="padding: 15px 20px;"></i>
+               <i class="fa-brands fa-twitter"></i>
+               <i class="fa-brands fa-pinterest"></i>
+               <i class="fa-brands fa-instagram"></i>
+               <i class="fa-brands fa-behance"></i>
+            </div>  
+            <div id="intro">
+                <h2>I am David Owele</h2>
+                <h3>i'm David, A professional web developer with long time experience in this field</h3>
+            </div>
+            <div id="home-buttons">
+                <a href="#portfolio" class="button1">My Portfolio</a>
+                <i class="fa-sharp fa-solid fa-play fa-lg button2" style="color: #ffffff;"></i>
+            </div>
+          
+        </div>
+
+        <div id="home-image" class="center">
+            <img src="res/man.png" alt="">
+        </div>
+        
 
     </section>
-    <section id="services">
-        <h2><i>Services i render</i></h2>
-        <h3>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum quisquam id neque cupiditate odio ipsam animi aperiam nulla, optio est inventore expedita magnam repellat molestias vitae iusto qui eius officiis.
-            Quam amet earum commodi, unde, nihil adipisci eveniet sed officia quisquam voluptas voluptatem ratione, recusandae ullam velit nulla pariatur impedit animi nemo. At nemo earum voluptatem odio ullam veniam recusandae!
-            Inventore earum nisi aliquid ut sequi deleniti quo, blanditiis praesentium eius repudiandae fugit esse, nemo adipisci aliquam nihil eveniet tenetur, assumenda nobis! Porro dignissimos aperiam atque? Quia dolorum blanditiis dolorem!
-            Expedita, nam hic! Quod nemo hic non soluta fuga accusantium ex, delectus, dolor quos eos nihil et nostrum tenetur. Libero facilis excepturi quod hic itaque nemo iusto suscipit optio est.</h3>
+    <section id="services" class="services">
+       <div>
+            <span>SERVICES</span>
+            <h2>My Services</h2>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting <br>industry. Lorem Ipsum standard dummy text.</p>
+            <hr>
+       </div>
+       <div class="container">
+            <div class="card"> 
+                <div class="icon-container"><i class="fa-brands fa-github"></i></div>
+                <div class="card-content">
+                <h2>Web Development</h2>
+                <h3>Lorem Ipsum is simply dummy text of the printing and typesetting
+                    industry. Lorem Ipsum standard dummy text.</h3>
+                </div>
+            </div>
+            <div class="card"> 
+                <div class="icon-container"><i class="fa-brands fa-codepen"></i></div>
+                <div class="card-content">
+                    <h2>Web Design</h2>
+                    <h3>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum standard dummy text.</h3>
+                </div>
+            </div>
+            <div class="card"> 
+                <div class="icon-container"> <i class="fa fa-file-video-o" aria-hidden="true"></i></i></div>
+                <div class="card-content">
+                    <h2>Video Editing</h2>
+                    <h3>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum standard dummy text.</h3>
+                </div>
+            </div>
+            <div class="card"> 
+                <div class="icon-container"><i class="fa fa-camera"></i> </div>
+                <div class="card-content">
+                    <h2>Photography</h2>
+                    <h3>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum standard dummy text.</h3>
+                </div>
+            </div>
+            <div class="card"> 
+                <div class="icon-container"> <i class="fa fa-apple"></i></div>
+                <div class="card-content">
+                    <h2>App Developing</h2>
+                    <h3>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum standard dummy text.</h3>
+                </div>
+            </div>
+            <div class="card"> 
+                <div class="icon-container"><i class="fa fa-yoast"></i> </div>
+                <div class="card-content">
+                    <h2>SEO Expert</h2>
+                    <h3>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum standard dummy text.</h3>
+                </div>
+            
+            </div>
+       </div>
     </section>
     <section id="about">
         <h2>Education, passion and intrests {About}</h2>
